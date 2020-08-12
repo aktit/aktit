@@ -5,7 +5,7 @@
 <h1>My first PHP page</h1>
 
 <?php
-echo "This is the new index";
+echo "This is the new index!";
 ?>
 
 </body>
