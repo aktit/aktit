@@ -1,8 +1,5 @@
 pipeline {
   agent any
-  triggers {
-    githubPush()
-  }
   stages {
     stage('echo') {
       steps {
@@ -10,5 +7,14 @@ pipeline {
       }
     }
 
+    stage('echo2') {
+      steps {
+        sh 'echo echo2'
+      }
+    }
+
+  }
+  triggers {
+    githubPush()
   }
 }
