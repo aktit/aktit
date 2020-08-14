@@ -15,6 +15,12 @@ pipeline {
           }
         }
 
+        stage('echo4') {
+          steps {
+            sh 'echo4'
+          }
+        }
+
       }
     }
 
